@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/home/ros2_ws/build/hinged_door_plugin/libdouble_hinged_door_plugin.so" "/home/home/ros2_ws/build/hinged_door_plugin/libsingle_hinged_door_plugin.so" "TARGETS" "double_hinged_door_plugin" "single_hinged_door_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

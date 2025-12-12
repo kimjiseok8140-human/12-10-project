@@ -1,0 +1,6 @@
+Invoking command in '/home/home/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/robot_msgs
+Invoked command in '/home/home/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/robot_msgs
+Invoking command in '/home/home/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/robot_msgs -- -j12 -l12
+Invoked command in '/home/home/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/robot_msgs -- -j12 -l12
+Invoking command in '/home/home/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/robot_msgs
+Invoked command in '/home/home/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/robot_msgs

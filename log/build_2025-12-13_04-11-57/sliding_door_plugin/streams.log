@@ -1,0 +1,25 @@
+[0.032s] Invoking command in '/home/home/ros2_ws/build/sliding_door_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/sliding_door_plugin -- -j12 -l12
+[0.124s] [ 50%] Built target double_sliding_door_plugin
+[0.126s] [100%] Built target single_sliding_door_plugin
+[0.165s] Invoked command in '/home/home/ros2_ws/build/sliding_door_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/sliding_door_plugin -- -j12 -l12
+[0.167s] Invoking command in '/home/home/ros2_ws/build/sliding_door_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/sliding_door_plugin
+[0.175s] -- Install configuration: ""
+[0.176s] -- Execute custom install script
+[0.176s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/lib/libdouble_sliding_door_plugin.so
+[0.176s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/lib/libsingle_sliding_door_plugin.so
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/ament_index/resource_index/package_run_dependencies/sliding_door_plugin
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/ament_index/resource_index/parent_prefix_path/sliding_door_plugin
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/environment/ament_prefix_path.dsv
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/environment/path.sh
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/environment/path.dsv
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/local_setup.bash
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/local_setup.sh
+[0.180s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/local_setup.zsh
+[0.180s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/local_setup.dsv
+[0.180s] -- Symlinking: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/package.dsv
+[0.185s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/ament_index/resource_index/packages/sliding_door_plugin
+[0.186s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/cmake/sliding_door_pluginConfig.cmake
+[0.186s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/cmake/sliding_door_pluginConfig-version.cmake
+[0.186s] -- Up-to-date symlink: /home/home/ros2_ws/install/sliding_door_plugin/share/sliding_door_plugin/package.xml
+[0.197s] Invoked command in '/home/home/ros2_ws/build/sliding_door_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/sliding_door_plugin

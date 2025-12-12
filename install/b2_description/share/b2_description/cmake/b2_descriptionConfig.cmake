@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/b2_description/ament_cmake_core/b2_descriptionConfig.cmake

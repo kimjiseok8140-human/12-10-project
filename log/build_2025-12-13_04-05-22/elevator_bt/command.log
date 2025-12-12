@@ -1,0 +1,6 @@
+Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/bt/elevator_bt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/elevator_bt
+Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/bt/elevator_bt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/elevator_bt
+Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/elevator_bt -- -j12 -l12
+Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/elevator_bt -- -j12 -l12
+Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/elevator_bt
+Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/elevator_bt

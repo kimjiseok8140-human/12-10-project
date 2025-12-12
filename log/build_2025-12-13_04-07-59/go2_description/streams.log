@@ -1,0 +1,36 @@
+[0.033s] Invoking command in '/home/home/ros2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/go2_description -- -j12 -l12
+[0.103s] Invoked command in '/home/home/ros2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/go2_description -- -j12 -l12
+[0.103s] Invoking command in '/home/home/ros2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/go2_description
+[0.151s] -- Install configuration: ""
+[0.151s] -- Execute custom install script
+[0.151s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/config/robot_control.yaml
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/config/robot_control_ros2.yaml
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/launch/display.launch.py
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/launch/fake_display.launch.py
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/base.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/calf.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/foot.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/hip.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/thigh.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/xacro/gazebo.xacro
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/xacro/robot.xacro
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/rviz/display.rviz
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/environment/path.sh
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/environment/path.dsv
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/local_setup.bash
+[0.152s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/local_setup.sh
+[0.154s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/local_setup.zsh
+[0.157s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/local_setup.dsv
+[0.157s] -- Symlinking: /home/home/ros2_ws/install/go2_description/share/go2_description/package.dsv
+[0.157s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[0.157s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[0.157s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[0.158s] -- Up-to-date symlink: /home/home/ros2_ws/install/go2_description/share/go2_description/package.xml
+[0.175s] Invoked command in '/home/home/ros2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/go2_description

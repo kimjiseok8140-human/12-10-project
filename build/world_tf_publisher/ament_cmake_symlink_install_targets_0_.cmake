@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/home/ros2_ws/build/world_tf_publisher/libworld_tf_publisher.so" "TARGETS" "world_tf_publisher" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

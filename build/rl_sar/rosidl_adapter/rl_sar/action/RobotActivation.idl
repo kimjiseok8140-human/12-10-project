@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rl_sar/action/RobotActivation.action
+// generated code does not contain a copyright notice
+
+
+module rl_sar {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct RobotActivation_Goal {
+      boolean activate;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct RobotActivation_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct RobotActivation_Feedback {
+      string status;
+    };
+  };
+};

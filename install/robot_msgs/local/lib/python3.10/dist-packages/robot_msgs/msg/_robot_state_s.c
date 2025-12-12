@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/robot_msgs/rosidl_generator_py/robot_msgs/msg/_robot_state_s.c

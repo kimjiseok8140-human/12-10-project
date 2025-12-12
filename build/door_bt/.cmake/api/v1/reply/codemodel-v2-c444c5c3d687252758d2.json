@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e3c84a8422fd0aa7fde5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "door_bt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "door_bt_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-door_bt_nodes-09fd5bf4fa963559c47d.json",
+					"name" : "door_bt_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "door_bt_runner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-door_bt_runner-91c79529db7ff37d31c9.json",
+					"name" : "door_bt_runner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "door_bt_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-door_bt_uninstall-1129ae4713d2bbe50b98.json",
+					"name" : "door_bt_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9bc57d169ac6ba28d179.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/home/ros2_ws/build/door_bt",
+		"source" : "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/bt/door_bt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

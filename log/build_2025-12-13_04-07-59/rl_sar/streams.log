@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/home/home/ros2_ws/build/rl_sar': CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:/home/home/ros2_ws/install/world_tf_publisher:/home/home/ros2_ws/install/velodyne_simulator:/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/home/home/ros2_ws/install/sliding_door_plugin:/home/home/ros2_ws/install/lift_elevator_plugin:/home/home/ros2_ws/install/hinged_door_plugin:/home/home/ros2_ws/install/go2w_description:/home/home/ros2_ws/install/go2_description:/home/home/ros2_ws/install/elevator_bt:/home/home/ros2_ws/install/door_bt:/home/home/ros2_ws/install/b2_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_joint_controller/lib:/home/home/ros2_ws/install/robot_msgs/lib:/home/home/ros2_ws/install/world_tf_publisher/lib:/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:/home/home/ros2_ws/install/sliding_door_plugin/lib:/home/home/ros2_ws/install/lift_elevator_plugin/lib:/home/home/ros2_ws/install/hinged_door_plugin/lib:/home/home/ros2_ws/install/door_bt/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/ros2_ws/build/rl_sar -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_generator_c[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target rl_sdk[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target observation_buffer[0m
+[0.052s] [  1%] Built target rl_sar__cpp
+[0.053s] [  9%] Built target rl_sar__rosidl_generator_c
+[0.058s] [  9%] Built target ament_cmake_python_symlink_rl_sar
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_cpp[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_fastrtps_cpp[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_introspection_cpp[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_introspection_c[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_c[0m
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_fastrtps_c[0m
+[0.072s] [ 22%] Built target rl_sar__rosidl_typesupport_cpp
+[0.072s] [ 24%] Built target rl_sar__rosidl_typesupport_introspection_c
+[0.072s] [ 31%] Built target rl_sar__rosidl_typesupport_c
+[0.074s] [ 39%] Built target rl_sar__rosidl_typesupport_introspection_cpp
+[0.074s] [ 46%] Built target rl_sar__rosidl_typesupport_fastrtps_cpp
+[0.075s] [ 54%] Built target rl_sar__rosidl_typesupport_fastrtps_c
+[0.088s] [ 54%] Built target rl_sar
+[0.094s] [ 57%] Built target observation_buffer
+[0.094s] [ 60%] Built target rl_sdk
+[0.103s] [ 62%] Built target rl_sar__py
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target rl_real_a1[0m
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target rl_real_l4w4[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target rl_sim[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target rl_real_lite3[0m
+[0.108s] [ 63%] [32mBuilding CXX object CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o[0m
+[0.111s] [ 65%] [32mBuilding CXX object CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_generator_py[0m
+[0.125s] [ 71%] Built target rl_sar__rosidl_generator_py
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_c__pyext[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_introspection_c__pyext[0m
+[0.153s] [ 74%] Built target rl_sar__rosidl_typesupport_introspection_c__pyext
+[0.159s] [ 77%] Built target rl_sar__rosidl_typesupport_fastrtps_c__pyext
+[0.162s] [ 80%] Built target rl_sar__rosidl_typesupport_c__pyext
+[0.169s] [ 83%] Built target rl_real_l4w4
+[0.176s] [ 86%] Built target rl_sim
+[0.177s] [ 89%] Built target rl_real_a1
+[0.182s] [ 96%] Built target rl_real_lite3
+[0.213s] running egg_info
+[0.213s] writing rl_sar.egg-info/PKG-INFO
+[0.213s] writing dependency_links to rl_sar.egg-info/dependency_links.txt
+[0.213s] writing top-level names to rl_sar.egg-info/top_level.txt
+[0.214s] reading manifest file 'rl_sar.egg-info/SOURCES.txt'
+[0.215s] writing manifest file 'rl_sar.egg-info/SOURCES.txt'
+[0.232s] [ 96%] Built target ament_cmake_python_build_rl_sar_egg
+[1.110s] In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+[1.110s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+[1.110s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+[1.110s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+[1.110s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_g1.hpp:18[m[K,
+[1.110s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_g1.cpp:6[m[K:
+[1.110s] [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+[1.110s]     5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+[1.110s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.110s] compilation terminated.
+[1.120s] gmake[2]: *** [CMakeFiles/rl_real_g1.dir/build.make:76: CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o] Error 1
+[1.120s] gmake[1]: *** [CMakeFiles/Makefile2:802: CMakeFiles/rl_real_g1.dir/all] Error 2
+[1.120s] gmake[1]: *** Waiting for unfinished jobs....
+[1.126s] In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+[1.126s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+[1.126s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+[1.126s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+[1.126s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_go2.hpp:18[m[K,
+[1.126s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_go2.cpp:6[m[K:
+[1.126s] [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+[1.126s]     5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+[1.126s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.126s] compilation terminated.
+[1.135s] gmake[2]: *** [CMakeFiles/rl_real_go2.dir/build.make:76: CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o] Error 1
+[1.135s] gmake[1]: *** [CMakeFiles/Makefile2:775: CMakeFiles/rl_real_go2.dir/all] Error 2
+[1.135s] gmake: *** [Makefile:146: all] Error 2
+[1.137s] Invoked command in '/home/home/ros2_ws/build/rl_sar' returned '2': CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:/home/home/ros2_ws/install/world_tf_publisher:/home/home/ros2_ws/install/velodyne_simulator:/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/home/home/ros2_ws/install/sliding_door_plugin:/home/home/ros2_ws/install/lift_elevator_plugin:/home/home/ros2_ws/install/hinged_door_plugin:/home/home/ros2_ws/install/go2w_description:/home/home/ros2_ws/install/go2_description:/home/home/ros2_ws/install/elevator_bt:/home/home/ros2_ws/install/door_bt:/home/home/ros2_ws/install/b2_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_joint_controller/lib:/home/home/ros2_ws/install/robot_msgs/lib:/home/home/ros2_ws/install/world_tf_publisher/lib:/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:/home/home/ros2_ws/install/sliding_door_plugin/lib:/home/home/ros2_ws/install/lift_elevator_plugin/lib:/home/home/ros2_ws/install/hinged_door_plugin/lib:/home/home/ros2_ws/install/door_bt/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/home/ros2_ws/build/rl_sar -- -j12 -l12

@@ -1,0 +1,41 @@
+[0.008s] Invoking command in '/home/home/ros2_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/velodyne_simulator/velodyne_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/velodyne_simulator
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Configuring done
+[0.498s] -- Generating done
+[0.500s] -- Build files have been written to: /home/home/ros2_ws/build/velodyne_simulator
+[0.514s] Invoked command in '/home/home/ros2_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/velodyne_simulator/velodyne_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/velodyne_simulator
+[0.515s] Invoking command in '/home/home/ros2_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/home/ros2_ws/build/velodyne_simulator -- -j12 -l12
+[0.547s] Invoked command in '/home/home/ros2_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/home/ros2_ws/build/velodyne_simulator -- -j12 -l12
+[0.548s] Invoking command in '/home/home/ros2_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/home/ros2_ws/build/velodyne_simulator
+[0.553s] -- Install configuration: ""
+[0.553s] -- Execute custom install script
+[0.553s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/ament_index/resource_index/package_run_dependencies/velodyne_simulator
+[0.559s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/ament_index/resource_index/parent_prefix_path/velodyne_simulator
+[0.567s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.sh
+[0.574s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/environment/ament_prefix_path.dsv
+[0.580s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/environment/path.sh
+[0.587s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/environment/path.dsv
+[0.595s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/local_setup.bash
+[0.602s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/local_setup.sh
+[0.607s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/local_setup.zsh
+[0.613s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/local_setup.dsv
+[0.619s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv
+[0.625s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/ament_index/resource_index/packages/velodyne_simulator
+[0.631s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig.cmake
+[0.637s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/cmake/velodyne_simulatorConfig-version.cmake
+[0.643s] -- Symlinking: /home/home/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.xml
+[0.650s] Invoked command in '/home/home/ros2_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins:/home/home/ros2_ws/install/velodyne_description:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/home/ros2_ws/build/velodyne_simulator

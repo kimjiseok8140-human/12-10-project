@@ -1,0 +1,4 @@
+Invoking command in '/home/home/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/robot_msgs -- -j12 -l12
+Invoked command in '/home/home/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/robot_msgs -- -j12 -l12
+Invoking command in '/home/home/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/robot_msgs
+Invoked command in '/home/home/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/robot_msgs

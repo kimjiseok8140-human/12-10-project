@@ -1,0 +1,73 @@
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sdk[0m
+[35m[1mConsolidate compiler generated dependencies of target observation_buffer[0m
+[  1%] Built target rl_sar__cpp
+[  9%] Built target rl_sar__rosidl_generator_c
+[  9%] Built target ament_cmake_python_symlink_rl_sar
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_fastrtps_c[0m
+[ 22%] Built target rl_sar__rosidl_typesupport_cpp
+[ 24%] Built target rl_sar__rosidl_typesupport_introspection_c
+[ 31%] Built target rl_sar__rosidl_typesupport_c
+[ 39%] Built target rl_sar__rosidl_typesupport_introspection_cpp
+[ 46%] Built target rl_sar__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target rl_sar__rosidl_typesupport_fastrtps_c
+[ 54%] Built target rl_sar
+[ 57%] Built target observation_buffer
+[ 60%] Built target rl_sdk
+[ 62%] Built target rl_sar__py
+[35m[1mConsolidate compiler generated dependencies of target rl_real_a1[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_real_l4w4[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sim[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_real_lite3[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_generator_py[0m
+[ 71%] Built target rl_sar__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_sar__rosidl_typesupport_introspection_c__pyext[0m
+[ 74%] Built target rl_sar__rosidl_typesupport_introspection_c__pyext
+[ 77%] Built target rl_sar__rosidl_typesupport_fastrtps_c__pyext
+[ 80%] Built target rl_sar__rosidl_typesupport_c__pyext
+[ 83%] Built target rl_real_l4w4
+[ 86%] Built target rl_sim
+[ 89%] Built target rl_real_a1
+[ 96%] Built target rl_real_lite3
+running egg_info
+writing rl_sar.egg-info/PKG-INFO
+writing dependency_links to rl_sar.egg-info/dependency_links.txt
+writing top-level names to rl_sar.egg-info/top_level.txt
+reading manifest file 'rl_sar.egg-info/SOURCES.txt'
+writing manifest file 'rl_sar.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_rl_sar_egg
+In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_g1.hpp:18[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_g1.cpp:6[m[K:
+[01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+    5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rl_real_g1.dir/build.make:76: CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:802: CMakeFiles/rl_real_g1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_go2.hpp:18[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_go2.cpp:6[m[K:
+[01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+    5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rl_real_go2.dir/build.make:76: CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:775: CMakeFiles/rl_real_go2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

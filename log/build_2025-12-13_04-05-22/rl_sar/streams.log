@@ -1,0 +1,272 @@
+[0.007s] Invoking command in '/home/home/ros2_ws/build/rl_sar': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_joint_controller/lib:/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/rl_sar
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.205s] -- Detecting CXX compiler ABI info - done
+[0.211s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.211s] -- Detecting CXX compile features
+[0.212s] -- Detecting CXX compile features - done
+[0.215s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.300s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.356s] -- Found joint_state_broadcaster: 2.50.2 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[0.389s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.445s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.447s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.502s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.520s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.549s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Looking for pthread.h
+[0.598s] -- Looking for pthread.h - found
+[0.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.646s] -- Found Threads: TRUE  
+[0.793s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.801s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.802s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.802s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.846s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.853s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.854s] -- Checking for module 'bullet>=2.82'
+[0.863s] --   Found bullet, version 3.05
+[0.929s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.961s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.972s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.991s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.001s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.005s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.009s] -- Searching for dependencies of ignition-math6
+[1.010s] -- Looking for OGRE...
+[1.010s] -- OGRE_PREFIX_WATCH changed.
+[1.014s] -- Checking for module 'OGRE'
+[1.022s] --   Found OGRE, version 1.9.0
+[1.043s] -- Found Ogre Ghadamon (1.9.0)
+[1.047s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.053s] -- Looking for OGRE_Paging...
+[1.056s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.056s] -- Looking for OGRE_Terrain...
+[1.059s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.059s] -- Looking for OGRE_Property...
+[1.062s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.062s] -- Looking for OGRE_RTShaderSystem...
+[1.065s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.065s] -- Looking for OGRE_Volume...
+[1.068s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.068s] -- Looking for OGRE_Overlay...
+[1.071s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.136s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.138s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.138s] -- Searching for dependencies of ignition-transport8
+[1.151s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.159s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.163s] -- Checking for module 'libzmq >= 4'
+[1.171s] --   Found libzmq , version 4.3.4
+[1.194s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.197s] -- Checking for module 'uuid'
+[1.205s] --   Found uuid, version 2.37.2
+[1.227s] -- Found UUID: TRUE  
+[1.229s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.229s] -- Searching for dependencies of ignition-msgs5
+[1.243s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.246s] -- Checking for module 'tinyxml2'
+[1.255s] --   Found tinyxml2, version 9.0.0
+[1.278s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.280s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.280s] -- Searching for dependencies of ignition-common3
+[1.280s] -- Looking for dlfcn.h - found
+[1.281s] -- Looking for libdl - found
+[1.282s] -- Found DL: TRUE  
+[1.290s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.290s] -- Searching for <ignition-common3> component [graphics]
+[1.292s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.292s] -- Searching for dependencies of ignition-common3-graphics
+[1.293s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.295s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.295s] -- Searching for dependencies of ignition-fuel_tools4
+[1.352s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.359s] -- Checking for module 'jsoncpp'
+[1.369s] --   Found jsoncpp, version 1.9.5
+[1.395s] -- Found JSONCPP: TRUE  
+[1.399s] -- Checking for module 'libzip'
+[1.410s] --   Found libzip, version 1.7.3
+[1.439s] -- Found ZIP: TRUE  
+[1.439s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.439s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.440s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.442s] -- Gazebo version: 11.10
+[1.443s] -- Checking for module 'tbb'
+[1.455s] --   Found tbb, version 2021.5.0
+[1.482s] -- Found robot_msgs: 3.0.0 (/home/home/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+[1.487s] -- Found robot_joint_controller: 3.0.0 (/home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/cmake)
+[1.504s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.505s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.517s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.523s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.691s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.957s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.970s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.972s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.988s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.988s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.988s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.988s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.000s] -- Found PythonExtra: .so  
+[2.058s] -- Found Torch: /home/home/libs/libtorch/lib/libtorch.so  
+[2.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[2.150s] -- Current system architecture: x86_64
+[2.154s] -- Current system architecture: x86_64
+[2.156s] -- Importing: /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/thirdparty/lib/x86_64/libddsc.so
+[2.156s] -- Importing: /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/thirdparty/lib/x86_64/libddscxx.so
+[2.156s] -- Unitree SDK library found at: /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/lib/x86_64/libunitree_sdk2.a
+[2.156s] -- Importing: /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/lib/x86_64/libunitree_sdk2.a
+[2.367s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: NumPy Interpreter Development.Module 
+[2.380s] -- Configuring done
+[2.438s] -- Generating done
+[2.453s] -- Build files have been written to: /home/home/ros2_ws/build/rl_sar
+[2.467s] Invoked command in '/home/home/ros2_ws/build/rl_sar' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_joint_controller/lib:/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/rl_sar
+[2.469s] Invoking command in '/home/home/ros2_ws/build/rl_sar': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_joint_controller/lib:/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/home/ros2_ws/build/rl_sar -- -j12 -l12
+[2.499s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.504s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.504s] [  4%] [32mBuilding CXX object CMakeFiles/observation_buffer.dir/library/core/observation_buffer/observation_buffer.cpp.o[0m
+[2.504s] [  6%] [32mBuilding CXX object CMakeFiles/rl_sdk.dir/library/core/rl_sdk/rl_sdk.cpp.o[0m
+[2.510s] [  6%] Built target ament_cmake_python_symlink_rl_sar
+[2.633s] running egg_info
+[2.634s] creating rl_sar.egg-info
+[2.634s] writing rl_sar.egg-info/PKG-INFO
+[2.634s] writing dependency_links to rl_sar.egg-info/dependency_links.txt
+[2.634s] writing top-level names to rl_sar.egg-info/top_level.txt
+[2.634s] writing manifest file 'rl_sar.egg-info/SOURCES.txt'
+[2.635s] reading manifest file 'rl_sar.egg-info/SOURCES.txt'
+[2.635s] writing manifest file 'rl_sar.egg-info/SOURCES.txt'
+[2.652s] [  6%] Built target ament_cmake_python_build_rl_sar_egg
+[2.951s] [ 10%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_generator_c.dir/rosidl_generator_c/rl_sar/action/detail/robot_activation__functions.c.o[0m
+[2.951s] [ 10%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_generator_c.dir/rosidl_generator_c/rl_sar/action/detail/set_navigation_mode__functions.c.o[0m
+[2.951s] [ 10%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_generator_c.dir/rosidl_generator_c/rl_sar/action/detail/set_locomotion_mode__functions.c.o[0m
+[2.970s] [ 10%] Built target rl_sar__cpp
+[2.977s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.977s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.977s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.044s] [ 16%] [32m[1mLinking C shared library librl_sar__rosidl_generator_c.so[0m
+[3.071s] [ 16%] Built target rl_sar__rosidl_generator_c
+[3.080s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.080s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.080s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.357s] [ 25%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rl_sar/action/set_navigation_mode__type_support.cpp.o[0m
+[3.358s] [ 25%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rl_sar/action/set_locomotion_mode__type_support.cpp.o[0m
+[3.358s] [ 25%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rl_sar/action/robot_activation__type_support.cpp.o[0m
+[3.450s] [ 27%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_c.dir/rosidl_typesupport_c/rl_sar/action/set_locomotion_mode__type_support.cpp.o[0m
+[3.456s] [ 28%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_c.dir/rosidl_typesupport_c/rl_sar/action/robot_activation__type_support.cpp.o[0m
+[3.456s] [ 30%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_c.dir/rosidl_typesupport_c/rl_sar/action/set_navigation_mode__type_support.cpp.o[0m
+[3.461s] [ 31%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rl_sar/action/detail/dds_fastrtps/robot_activation__type_support.cpp.o[0m
+[3.516s] [ 34%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rl_sar/action/detail/dds_fastrtps/set_navigation_mode__type_support.cpp.o[0m
+[3.516s] [ 34%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rl_sar/action/detail/dds_fastrtps/set_locomotion_mode__type_support.cpp.o[0m
+[3.519s] [ 36%] [32m[1mLinking CXX shared library librl_sar__rosidl_typesupport_c.so[0m
+[3.547s] [ 37%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rl_sar/action/detail/robot_activation__type_support.cpp.o[0m
+[3.574s] [ 37%] Built target rl_sar__rosidl_typesupport_c
+[3.583s] [ 39%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rl_sar/action/detail/set_locomotion_mode__type_support.cpp.o[0m
+[3.714s] [ 40%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rl_sar/action/detail/set_navigation_mode__type_support.cpp.o[0m
+[3.733s] [ 42%] [32m[1mLinking CXX shared library librl_sar__rosidl_typesupport_cpp.so[0m
+[3.735s] [ 43%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rl_sar/action/detail/robot_activation__type_support.c.o[0m
+[3.743s] [ 45%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rl_sar/action/detail/robot_activation__type_support_c.cpp.o[0m
+[3.745s] [ 46%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rl_sar/action/detail/set_locomotion_mode__type_support.c.o[0m
+[3.786s] [ 48%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rl_sar/action/detail/set_navigation_mode__type_support.c.o[0m
+[3.795s] [ 50%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rl_sar/action/detail/set_locomotion_mode__type_support_c.cpp.o[0m
+[3.803s] [ 50%] Built target rl_sar__rosidl_typesupport_cpp
+[3.824s] [ 51%] [32mBuilding CXX object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rl_sar/action/detail/set_navigation_mode__type_support_c.cpp.o[0m
+[3.850s] [ 53%] [32m[1mLinking C shared library librl_sar__rosidl_typesupport_introspection_c.so[0m
+[3.920s] [ 53%] Built target rl_sar__rosidl_typesupport_introspection_c
+[4.017s] [ 54%] [32m[1mLinking CXX shared library librl_sar__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.082s] [ 54%] Built target rl_sar__rosidl_typesupport_fastrtps_cpp
+[4.133s] [ 56%] [32m[1mLinking CXX shared library librl_sar__rosidl_typesupport_fastrtps_c.so[0m
+[4.152s] [ 57%] [32m[1mLinking CXX shared library librl_sar__rosidl_typesupport_introspection_cpp.so[0m
+[4.182s] [ 57%] Built target rl_sar__rosidl_typesupport_fastrtps_c
+[4.200s] [ 57%] Built target rl_sar__rosidl_typesupport_introspection_cpp
+[4.215s] [ 57%] Built target rl_sar
+[4.230s] [ 59%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.093s] [ 59%] Built target rl_sar__py
+[5.105s] [ 62%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_generator_py.dir/rosidl_generator_py/rl_sar/action/_set_navigation_mode_s.c.o[0m
+[5.105s] [ 62%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_generator_py.dir/rosidl_generator_py/rl_sar/action/_robot_activation_s.c.o[0m
+[5.106s] [ 63%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_generator_py.dir/rosidl_generator_py/rl_sar/action/_set_locomotion_mode_s.c.o[0m
+[5.187s] [ 65%] [32m[1mLinking C shared library rosidl_generator_py/rl_sar/librl_sar__rosidl_generator_py.so[0m
+[5.215s] [ 65%] Built target rl_sar__rosidl_generator_py
+[5.227s] [ 68%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rl_sar/_rl_sar_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.227s] [ 68%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rl_sar/_rl_sar_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.228s] [ 69%] [32mBuilding C object CMakeFiles/rl_sar__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rl_sar/_rl_sar_s.ep.rosidl_typesupport_c.c.o[0m
+[5.326s] [ 74%] [32m[1mLinking C shared library rosidl_generator_py/rl_sar/rl_sar_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.326s] [ 74%] [32m[1mLinking C shared library rosidl_generator_py/rl_sar/rl_sar_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.326s] [ 74%] [32m[1mLinking C shared library rosidl_generator_py/rl_sar/rl_sar_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.351s] [ 74%] Built target rl_sar__rosidl_typesupport_c__pyext
+[5.351s] [ 74%] Built target rl_sar__rosidl_typesupport_introspection_c__pyext
+[5.351s] [ 74%] Built target rl_sar__rosidl_typesupport_fastrtps_c__pyext
+[9.848s] [ 75%] [32m[1mLinking CXX shared library libobservation_buffer.so[0m
+[10.064s] [ 75%] Built target observation_buffer
+[11.813s] [ 77%] [32m[1mLinking CXX shared library librl_sdk.so[0m
+[12.049s] [ 77%] Built target rl_sdk
+[12.062s] [ 78%] [32mBuilding CXX object CMakeFiles/rl_real_lite3.dir/src/rl_real_lite3.cpp.o[0m
+[12.062s] [ 80%] [32mBuilding CXX object CMakeFiles/rl_sim.dir/src/rl_sim.cpp.o[0m
+[12.062s] [ 81%] [32mBuilding CXX object CMakeFiles/rl_real_lite3.dir/library/thirdparty/gamepad/src/gamepad.cpp.o[0m
+[12.062s] [ 83%] [32mBuilding CXX object CMakeFiles/rl_real_a1.dir/src/rl_real_a1.cpp.o[0m
+[12.063s] [ 84%] [32mBuilding CXX object CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o[0m
+[12.063s] [ 86%] [32mBuilding CXX object CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o[0m
+[12.063s] [ 89%] [32mBuilding CXX object CMakeFiles/rl_real_lite3.dir/library/thirdparty/gamepad/src/retroid_gamepad.cpp.o[0m
+[12.063s] [ 89%] [32mBuilding CXX object CMakeFiles/rl_real_l4w4.dir/src/rl_real_l4w4.cpp.o[0m
+[12.063s] [ 90%] [32mBuilding CXX object CMakeFiles/rl_real_lite3.dir/library/thirdparty/gamepad/src/udp_receiver.cpp.o[0m
+[13.100s] In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+[13.100s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+[13.100s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+[13.100s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+[13.101s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_go2.hpp:18[m[K,
+[13.101s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_go2.cpp:6[m[K:
+[13.101s] [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+[13.101s]     5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+[13.101s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.101s] compilation terminated.
+[13.118s] gmake[2]: *** [CMakeFiles/rl_real_go2.dir/build.make:76: CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o] Error 1
+[13.118s] gmake[1]: *** [CMakeFiles/Makefile2:775: CMakeFiles/rl_real_go2.dir/all] Error 2
+[13.118s] gmake[1]: *** Waiting for unfinished jobs....
+[13.280s] In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+[13.280s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+[13.280s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+[13.280s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+[13.280s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_g1.hpp:18[m[K,
+[13.280s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_g1.cpp:6[m[K:
+[13.280s] [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+[13.280s]     5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+[13.280s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.280s] compilation terminated.
+[13.295s] gmake[2]: *** [CMakeFiles/rl_real_g1.dir/build.make:76: CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o] Error 1
+[13.295s] gmake[1]: *** [CMakeFiles/Makefile2:802: CMakeFiles/rl_real_g1.dir/all] Error 2
+[18.790s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[18.790s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[18.790s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[18.790s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[18.790s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[18.790s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[18.790s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[18.790s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_legged_sdk-3.2/include/unitree_legged_sdk/loop.h:15[m[K,
+[18.790s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_legged_sdk-3.2/include/unitree_legged_sdk/unitree_legged_sdk.h:12[m[K,
+[18.790s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_a1.hpp:18[m[K,
+[18.790s]                  from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_a1.cpp:6[m[K:
+[18.790s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[18.790s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[18.790s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[24.490s] [ 92%] [32m[1mLinking CXX executable rl_real_l4w4[0m
+[24.507s] [ 93%] [32m[1mLinking CXX executable rl_real_lite3[0m
+[24.875s] [ 95%] [32m[1mLinking CXX executable rl_real_a1[0m
+[25.501s] [ 95%] Built target rl_real_l4w4
+[25.597s] [ 95%] Built target rl_real_lite3
+[25.788s] [ 95%] Built target rl_real_a1
+[39.102s] [ 96%] [32m[1mLinking CXX executable rl_sim[0m
+[41.467s] [ 96%] Built target rl_sim
+[41.467s] gmake: *** [Makefile:146: all] Error 2
+[41.469s] Invoked command in '/home/home/ros2_ws/build/rl_sar' returned '2': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_joint_controller:/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_joint_controller/lib:/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/home/ros2_ws/build/rl_sar -- -j12 -l12

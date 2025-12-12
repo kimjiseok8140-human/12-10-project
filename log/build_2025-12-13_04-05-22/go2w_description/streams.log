@@ -1,0 +1,87 @@
+[0.023s] Invoking command in '/home/home/ros2_ws/build/go2w_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robots/go2w_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/go2w_description
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.491s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.518s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.520s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.568s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.569s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.590s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.595s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.675s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.675s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.708s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.710s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.731s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.771s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.772s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.786s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.789s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.795s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.804s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.812s] -- Looking for pthread.h
+[0.869s] -- Looking for pthread.h - found
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.929s] -- Found Threads: TRUE  
+[1.125s] -- Configuring done
+[1.139s] -- Generating done
+[1.139s] -- Build files have been written to: /home/home/ros2_ws/build/go2w_description
+[1.182s] Invoked command in '/home/home/ros2_ws/build/go2w_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robots/go2w_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/go2w_description
+[1.188s] Invoking command in '/home/home/ros2_ws/build/go2w_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/go2w_description -- -j12 -l12
+[1.666s] Invoked command in '/home/home/ros2_ws/build/go2w_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/go2w_description -- -j12 -l12
+[1.667s] Invoking command in '/home/home/ros2_ws/build/go2w_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/go2w_description
+[2.696s] -- Install configuration: ""
+[2.696s] -- Execute custom install script
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/config/robot_control.yaml
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/config/robot_control_ros2.yaml
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/launch/check_joint.rviz
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/launch/display.launch.py
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/launch/fake_display.launch.py
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/launch/gazebo.launch
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/launch/go2w_rviz.launch
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/base.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/calf.stl
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/calf_mirror.stl
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/foot.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/hip.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/left_wheel.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/right_wheel.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/thigh.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/meshes/thigh_mirror.dae
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/urdf/go2w_description.urdf
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/xacro/gazebo.xacro
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/xacro/robot.xacro
+[2.696s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/rviz/display.rviz
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/ament_index/resource_index/package_run_dependencies/go2w_description
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/ament_index/resource_index/parent_prefix_path/go2w_description
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/environment/ament_prefix_path.sh
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/environment/ament_prefix_path.dsv
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/environment/path.sh
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/environment/path.dsv
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/local_setup.bash
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/local_setup.sh
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/local_setup.zsh
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/local_setup.dsv
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/package.dsv
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/ament_index/resource_index/packages/go2w_description
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/cmake/go2w_descriptionConfig.cmake
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/cmake/go2w_descriptionConfig-version.cmake
+[2.697s] -- Symlinking: /home/home/ros2_ws/install/go2w_description/share/go2w_description/package.xml
+[2.714s] Invoked command in '/home/home/ros2_ws/build/go2w_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/go2w_description

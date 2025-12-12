@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/go2w_description/ament_cmake_core/go2w_descriptionConfig.cmake

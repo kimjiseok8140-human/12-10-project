@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/hinged_door_plugin/ament_cmake_core/hinged_door_pluginConfig.cmake

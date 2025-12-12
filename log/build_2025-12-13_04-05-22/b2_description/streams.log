@@ -1,0 +1,95 @@
+[0.027s] Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robots/b2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/b2_description
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.487s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.514s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.516s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.565s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.576s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.588s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.593s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.600s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.669s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.669s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.702s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.704s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.725s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.768s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.781s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.783s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.790s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.799s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.807s] -- Looking for pthread.h
+[0.861s] -- Looking for pthread.h - found
+[0.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.917s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.919s] -- Found Threads: TRUE  
+[1.086s] -- Configuring done
+[1.092s] -- Generating done
+[1.094s] -- Build files have been written to: /home/home/ros2_ws/build/b2_description
+[1.120s] Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robots/b2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/b2_description
+[1.120s] Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/b2_description -- -j12 -l12
+[1.201s] Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/b2_description -- -j12 -l12
+[1.201s] Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/b2_description
+[1.673s] -- Install configuration: ""
+[1.673s] -- Execute custom install script
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/config/robot_control.yaml
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/config/robot_control_ros2.yaml
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/launch/display.launch.py
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_calf.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_foot.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_hip.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_thigh.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FR_calf.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FR_hip.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FR_thigh.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RL_calf.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RL_hip.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RL_thigh.dae
+[1.673s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RR_calf.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RR_hip.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RR_thigh.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/base_link.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/calf.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/hip.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/thigh.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/thigh_mirror.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/trunk.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/trunk1.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/trunk2.dae
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/urdf/b2_description.urdf
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/xacro/gazebo.xacro
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/xacro/robot.xacro
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/rviz/display.rviz
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/ament_index/resource_index/package_run_dependencies/b2_description
+[1.674s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/ament_index/resource_index/parent_prefix_path/b2_description
+[1.693s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/ament_prefix_path.sh
+[1.712s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/ament_prefix_path.dsv
+[1.731s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/path.sh
+[1.750s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/path.dsv
+[1.768s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.bash
+[1.783s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.sh
+[1.795s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.zsh
+[1.804s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.dsv
+[1.820s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/package.dsv
+[1.839s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/ament_index/resource_index/packages/b2_description
+[1.859s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/cmake/b2_descriptionConfig.cmake
+[1.876s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/cmake/b2_descriptionConfig-version.cmake
+[1.891s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/package.xml
+[1.924s] Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/b2_description

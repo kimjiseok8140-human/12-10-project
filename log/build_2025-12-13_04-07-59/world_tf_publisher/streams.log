@@ -1,0 +1,24 @@
+[0.038s] Invoking command in '/home/home/ros2_ws/build/world_tf_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/world_tf_publisher -- -j12 -l12
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target world_tf_publisher[0m
+[0.145s] [100%] Built target world_tf_publisher
+[0.191s] Invoked command in '/home/home/ros2_ws/build/world_tf_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/world_tf_publisher -- -j12 -l12
+[0.192s] Invoking command in '/home/home/ros2_ws/build/world_tf_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/world_tf_publisher
+[0.206s] -- Install configuration: ""
+[0.206s] -- Execute custom install script
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/lib/libworld_tf_publisher.so
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/ament_index/resource_index/package_run_dependencies/world_tf_publisher
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/ament_index/resource_index/parent_prefix_path/world_tf_publisher
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/path.sh
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/path.dsv
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.bash
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.sh
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.zsh
+[0.206s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.dsv
+[0.206s] -- Symlinking: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/package.dsv
+[0.208s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/ament_index/resource_index/packages/world_tf_publisher
+[0.208s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/cmake/world_tf_publisherConfig.cmake
+[0.208s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/cmake/world_tf_publisherConfig-version.cmake
+[0.208s] -- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/package.xml
+[0.239s] Invoked command in '/home/home/ros2_ws/build/world_tf_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/world_tf_publisher

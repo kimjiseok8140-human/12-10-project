@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/robot_msgs/rosidl_typesupport_introspection_c/robot_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h

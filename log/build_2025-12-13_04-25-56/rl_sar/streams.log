@@ -1,0 +1,36 @@
+[0.040s] Invoking command in '/home/home/ros2_ws/build/rl_sar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/rl_sar -- -j12 -l12
+[0.102s] Invoked command in '/home/home/ros2_ws/build/rl_sar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/rl_sar -- -j12 -l12
+[0.103s] Invoking command in '/home/home/ros2_ws/build/rl_sar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/rl_sar
+[0.124s] -- Install configuration: "Release"
+[0.124s] -- Execute custom install script
+[0.124s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/launch/competition.launch.py
+[0.124s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/launch/gazebo.launch.py
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/launch/nav2.launch.py
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/launch/slam_nav.launch.py
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/hotel.world
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/hotel.world.bak
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/hotel_raw.world
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/hotel_raw_new_elevator.world
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/hotel_stairs.world
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/hotel_stairs_raw.world
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/remove_models.py
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/worlds/stairs.world
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/config/slam_toolbox_params.yaml
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/config/turtlebot3_nav2_params.yaml
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/rviz/turtlebot3_nav2.rviz
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/ament_index/resource_index/package_run_dependencies/rl_sar
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/ament_index/resource_index/parent_prefix_path/rl_sar
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/environment/ament_prefix_path.sh
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/environment/ament_prefix_path.dsv
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/environment/path.sh
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/environment/path.dsv
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/local_setup.bash
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/local_setup.sh
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/local_setup.zsh
+[0.125s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/local_setup.dsv
+[0.125s] -- Symlinking: /home/home/ros2_ws/install/rl_sar/share/rl_sar/package.dsv
+[0.134s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/ament_index/resource_index/packages/rl_sar
+[0.134s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/cmake/rl_sarConfig.cmake
+[0.134s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/cmake/rl_sarConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/home/ros2_ws/install/rl_sar/share/rl_sar/package.xml
+[0.163s] Invoked command in '/home/home/ros2_ws/build/rl_sar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/rl_sar

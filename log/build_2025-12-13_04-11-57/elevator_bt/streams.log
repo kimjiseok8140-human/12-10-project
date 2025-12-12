@@ -1,0 +1,31 @@
+[0.036s] Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/elevator_bt -- -j12 -l12
+[0.112s] [100%] Built target elevator_bt_runner
+[0.170s] Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/elevator_bt -- -j12 -l12
+[0.170s] Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/elevator_bt
+[0.176s] -- Install configuration: ""
+[0.176s] -- Execute custom install script
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/lib/elevator_bt/elevator_bt_runner
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/call_elevator_to_floor.hpp
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/elevator_client.hpp
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/ok_node.hpp
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/set_elevator_door.hpp
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/wait_cabin_at_target.hpp
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/wait_door_open.hpp
+[0.177s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/config/elevator_lift1.yaml
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/config/elevator_lift2.yaml
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/ament_index/resource_index/package_run_dependencies/elevator_bt
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/ament_index/resource_index/parent_prefix_path/elevator_bt
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/path.sh
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/path.dsv
+[0.178s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.bash
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.sh
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.zsh
+[0.179s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.dsv
+[0.179s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/package.dsv
+[0.187s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/ament_index/resource_index/packages/elevator_bt
+[0.187s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/cmake/elevator_btConfig.cmake
+[0.187s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/cmake/elevator_btConfig-version.cmake
+[0.187s] -- Up-to-date symlink: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/package.xml
+[0.198s] Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/ros2_ws/install/rl_action:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/elevator_bt

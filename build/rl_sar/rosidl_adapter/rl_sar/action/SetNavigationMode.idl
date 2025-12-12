@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rl_sar/action/SetNavigationMode.action
+// generated code does not contain a copyright notice
+
+
+module rl_sar {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct SetNavigationMode_Goal {
+      boolean enable;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct SetNavigationMode_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct SetNavigationMode_Feedback {
+      string status;
+    };
+  };
+};

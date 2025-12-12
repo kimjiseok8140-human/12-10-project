@@ -1,0 +1,49 @@
+[0.033s] Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/b2_description -- -j12 -l12
+[0.103s] Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/b2_description -- -j12 -l12
+[0.105s] Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/b2_description
+[0.141s] -- Install configuration: ""
+[0.141s] -- Execute custom install script
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/config/robot_control.yaml
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/config/robot_control_ros2.yaml
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/launch/display.launch.py
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_calf.dae
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_foot.dae
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_hip.dae
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FL_thigh.dae
+[0.141s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FR_calf.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FR_hip.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/FR_thigh.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RL_calf.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RL_hip.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RL_thigh.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RR_calf.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RR_hip.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/RR_thigh.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/base_link.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/calf.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/hip.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/thigh.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/thigh_mirror.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/trunk.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/trunk1.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/meshes/trunk2.dae
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/urdf/b2_description.urdf
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/xacro/gazebo.xacro
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/xacro/robot.xacro
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/rviz/display.rviz
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/ament_index/resource_index/package_run_dependencies/b2_description
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/ament_index/resource_index/parent_prefix_path/b2_description
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/path.sh
+[0.142s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/environment/path.dsv
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.bash
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.sh
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.zsh
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/local_setup.dsv
+[0.143s] -- Symlinking: /home/home/ros2_ws/install/b2_description/share/b2_description/package.dsv
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/ament_index/resource_index/packages/b2_description
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/cmake/b2_descriptionConfig.cmake
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/cmake/b2_descriptionConfig-version.cmake
+[0.143s] -- Up-to-date symlink: /home/home/ros2_ws/install/b2_description/share/b2_description/package.xml
+[0.175s] Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/b2_description

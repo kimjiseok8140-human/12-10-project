@@ -1,0 +1,215 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from rl_sar:action/SetNavigationMode.idl
+// generated code does not contain a copyright notice
+
+#ifndef RL_SAR__ACTION__DETAIL__SET_NAVIGATION_MODE__STRUCT_H_
+#define RL_SAR__ACTION__DETAIL__SET_NAVIGATION_MODE__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_Goal
+{
+  bool enable;
+} rl_sar__action__SetNavigationMode_Goal;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_Goal.
+typedef struct rl_sar__action__SetNavigationMode_Goal__Sequence
+{
+  rl_sar__action__SetNavigationMode_Goal * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_Goal__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'message'
+#include "rosidl_runtime_c/string.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_Result
+{
+  bool success;
+  rosidl_runtime_c__String message;
+} rl_sar__action__SetNavigationMode_Result;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_Result.
+typedef struct rl_sar__action__SetNavigationMode_Result__Sequence
+{
+  rl_sar__action__SetNavigationMode_Result * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_Result__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'status'
+// already included above
+// #include "rosidl_runtime_c/string.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_Feedback
+{
+  rosidl_runtime_c__String status;
+} rl_sar__action__SetNavigationMode_Feedback;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_Feedback.
+typedef struct rl_sar__action__SetNavigationMode_Feedback__Sequence
+{
+  rl_sar__action__SetNavigationMode_Feedback * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_Feedback__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+#include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+// Member 'goal'
+#include "rl_sar/action/detail/set_navigation_mode__struct.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_SendGoal_Request
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+  rl_sar__action__SetNavigationMode_Goal goal;
+} rl_sar__action__SetNavigationMode_SendGoal_Request;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_SendGoal_Request.
+typedef struct rl_sar__action__SetNavigationMode_SendGoal_Request__Sequence
+{
+  rl_sar__action__SetNavigationMode_SendGoal_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_SendGoal_Request__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'stamp'
+#include "builtin_interfaces/msg/detail/time__struct.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_SendGoal_Response
+{
+  bool accepted;
+  builtin_interfaces__msg__Time stamp;
+} rl_sar__action__SetNavigationMode_SendGoal_Response;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_SendGoal_Response.
+typedef struct rl_sar__action__SetNavigationMode_SendGoal_Response__Sequence
+{
+  rl_sar__action__SetNavigationMode_SendGoal_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_SendGoal_Response__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+// already included above
+// #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_GetResult_Request
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+} rl_sar__action__SetNavigationMode_GetResult_Request;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_GetResult_Request.
+typedef struct rl_sar__action__SetNavigationMode_GetResult_Request__Sequence
+{
+  rl_sar__action__SetNavigationMode_GetResult_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_GetResult_Request__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'result'
+// already included above
+// #include "rl_sar/action/detail/set_navigation_mode__struct.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_GetResult_Response
+{
+  int8_t status;
+  rl_sar__action__SetNavigationMode_Result result;
+} rl_sar__action__SetNavigationMode_GetResult_Response;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_GetResult_Response.
+typedef struct rl_sar__action__SetNavigationMode_GetResult_Response__Sequence
+{
+  rl_sar__action__SetNavigationMode_GetResult_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_GetResult_Response__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+// already included above
+// #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+// Member 'feedback'
+// already included above
+// #include "rl_sar/action/detail/set_navigation_mode__struct.h"
+
+/// Struct defined in action/SetNavigationMode in the package rl_sar.
+typedef struct rl_sar__action__SetNavigationMode_FeedbackMessage
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+  rl_sar__action__SetNavigationMode_Feedback feedback;
+} rl_sar__action__SetNavigationMode_FeedbackMessage;
+
+// Struct for a sequence of rl_sar__action__SetNavigationMode_FeedbackMessage.
+typedef struct rl_sar__action__SetNavigationMode_FeedbackMessage__Sequence
+{
+  rl_sar__action__SetNavigationMode_FeedbackMessage * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} rl_sar__action__SetNavigationMode_FeedbackMessage__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // RL_SAR__ACTION__DETAIL__SET_NAVIGATION_MODE__STRUCT_H_

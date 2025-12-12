@@ -1,0 +1,3 @@
+/home/home/ros2_ws/build/rl_sar/rosidl_adapter/rl_sar:action/RobotActivation.idl
+/home/home/ros2_ws/build/rl_sar/rosidl_adapter/rl_sar:action/SetLocomotionMode.idl
+/home/home/ros2_ws/build/rl_sar/rosidl_adapter/rl_sar:action/SetNavigationMode.idl

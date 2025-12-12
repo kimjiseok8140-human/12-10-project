@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target door_bt_nodes[0m
+[ 75%] Built target door_bt_nodes
+[35m[1mConsolidate compiler generated dependencies of target door_bt_runner[0m
+[100%] Built target door_bt_runner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/lib/libdoor_bt_nodes.so
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/lib/door_bt/door_bt_runner
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/bt_trees/tests/door_open_close_3doors.xml
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/check_path_uses_door.hpp
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/is_robot_in_door_radius.hpp
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/is_robot_past_door.hpp
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/set_door_open.hpp
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/ament_index/resource_index/package_run_dependencies/door_bt
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/ament_index/resource_index/parent_prefix_path/door_bt
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/path.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/path.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.bash
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.zsh
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.dsv
+-- Symlinking: /home/home/ros2_ws/install/door_bt/share/door_bt/package.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/ament_index/resource_index/packages/door_bt
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/cmake/door_btConfig.cmake
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/cmake/door_btConfig-version.cmake
+-- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/package.xml

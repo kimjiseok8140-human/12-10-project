@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/rl_sar/rosidl_typesupport_introspection_c/rl_sar/action/detail/robot_activation__rosidl_typesupport_introspection_c.h

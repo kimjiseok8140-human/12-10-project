@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/robot_msgs/ament_cmake_core/robot_msgsConfig-version.cmake

@@ -1,0 +1,71 @@
+[0.007s] Invoking command in '/home/home/ros2_ws/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_joint_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/robot_joint_controller
+[0.067s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting CXX compiler ABI info
+[0.147s] -- Detecting CXX compiler ABI info - done
+[0.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.153s] -- Detecting CXX compile features
+[0.153s] -- Detecting CXX compile features - done
+[0.156s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.364s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.405s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.418s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.486s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.488s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.569s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.598s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.647s] -- Looking for C++ include pthread.h
+[0.726s] -- Looking for C++ include pthread.h - found
+[0.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.802s] -- Found Threads: TRUE  
+[0.842s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.878s] -- Found control_toolbox: 3.6.2 (/opt/ros/humble/share/control_toolbox/cmake)
+[1.047s] -- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.053s] -- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)
+[1.055s] -- Found robot_msgs: 3.0.0 (/home/home/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+[1.116s] -- Configuring done
+[1.132s] -- Generating done
+[1.136s] -- Build files have been written to: /home/home/ros2_ws/build/robot_joint_controller
+[1.149s] Invoked command in '/home/home/ros2_ws/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_joint_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/robot_joint_controller
+[1.150s] Invoking command in '/home/home/ros2_ws/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/home/ros2_ws/build/robot_joint_controller -- -j12 -l12
+[1.198s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/ros2/src/robot_joint_controller.cpp.o[0m
+[1.198s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_joint_controller.dir/ros2/src/robot_joint_controller_group.cpp.o[0m
+[9.030s] [100%] [32m[1mLinking CXX shared library librobot_joint_controller.so[0m
+[9.723s] [100%] Built target robot_joint_controller
+[9.732s] Invoked command in '/home/home/ros2_ws/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/home/ros2_ws/build/robot_joint_controller -- -j12 -l12
+[9.733s] Invoking command in '/home/home/ros2_ws/build/robot_joint_controller': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/home/ros2_ws/build/robot_joint_controller
+[9.739s] -- Install configuration: ""
+[9.739s] -- Execute custom install script
+[9.739s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/ros2/robot_joint_controller_plugins.xml
+[9.746s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/include/robot_joint_controller/robot_joint_controller.hpp
+[9.752s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/include/robot_joint_controller/robot_joint_controller_group.hpp
+[9.758s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/include/robot_joint_controller/visibility_control.h
+[9.765s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/environment/library_path.sh
+[9.772s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/environment/library_path.dsv
+[9.779s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/ament_index/resource_index/package_run_dependencies/robot_joint_controller
+[9.786s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/ament_index/resource_index/parent_prefix_path/robot_joint_controller
+[9.793s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/environment/ament_prefix_path.sh
+[9.800s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/environment/ament_prefix_path.dsv
+[9.806s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/environment/path.sh
+[9.813s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/environment/path.dsv
+[9.820s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/local_setup.bash
+[9.828s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/local_setup.sh
+[9.837s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/local_setup.zsh
+[9.846s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/local_setup.dsv
+[9.853s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/package.dsv
+[9.860s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/ament_index/resource_index/packages/robot_joint_controller
+[9.866s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_joint_controller
+[9.875s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[9.881s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.890s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/cmake/robot_joint_controllerConfig.cmake
+[9.899s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/cmake/robot_joint_controllerConfig-version.cmake
+[9.907s] -- Symlinking: /home/home/ros2_ws/install/robot_joint_controller/share/robot_joint_controller/package.xml
+[9.916s] -- Installing: /home/home/ros2_ws/install/robot_joint_controller/lib/librobot_joint_controller.so
+[9.926s] -- Set runtime path of "/home/home/ros2_ws/install/robot_joint_controller/lib/librobot_joint_controller.so" to ""
+[9.929s] Invoked command in '/home/home/ros2_ws/build/robot_joint_controller' returned '0': AMENT_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/home/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/home/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/home/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/home/ros2_ws/build/robot_joint_controller

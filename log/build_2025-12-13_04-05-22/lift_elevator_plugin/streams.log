@@ -1,0 +1,140 @@
+[0.021s] Invoking command in '/home/home/ros2_ws/build/lift_elevator_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/plugins/lift_elevator_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/lift_elevator_plugin
+[0.972s] -- The C compiler identification is GNU 11.4.0
+[0.972s] -- The CXX compiler identification is GNU 11.4.0
+[0.972s] -- Detecting C compiler ABI info
+[0.972s] -- Detecting C compiler ABI info - done
+[0.972s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.972s] -- Detecting C compile features
+[0.972s] -- Detecting C compile features - done
+[0.972s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.972s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.972s] -- Detecting CXX compile features
+[0.972s] -- Detecting CXX compile features - done
+[0.972s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.972s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.972s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.972s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.972s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.972s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.972s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.972s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.972s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.972s] -- Looking for pthread.h
+[0.972s] -- Looking for pthread.h - found
+[0.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.973s] -- Found Threads: TRUE  
+[0.973s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.973s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.973s] -- Checking for module 'bullet>=2.82'
+[0.973s] --   Found bullet, version 3.05
+[1.033s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.134s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.145s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.180s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.208s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.216s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.223s] -- Searching for dependencies of ignition-math6
+[1.224s] -- Looking for OGRE...
+[1.225s] -- OGRE_PREFIX_WATCH changed.
+[1.237s] -- Checking for module 'OGRE'
+[1.261s] --   Found OGRE, version 1.9.0
+[1.333s] -- Found Ogre Ghadamon (1.9.0)
+[1.354s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.366s] -- Looking for OGRE_Paging...
+[1.384s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.384s] -- Looking for OGRE_Terrain...
+[1.395s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.402s] -- Looking for OGRE_Property...
+[1.413s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.413s] -- Looking for OGRE_RTShaderSystem...
+[1.418s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.418s] -- Looking for OGRE_Volume...
+[1.426s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.427s] -- Looking for OGRE_Overlay...
+[1.434s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.695s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.706s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.706s] -- Searching for dependencies of ignition-transport8
+[1.742s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.770s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.781s] -- Checking for module 'libzmq >= 4'
+[1.806s] --   Found libzmq , version 4.3.4
+[1.881s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.895s] -- Checking for module 'uuid'
+[1.921s] --   Found uuid, version 2.37.2
+[1.992s] -- Found UUID: TRUE  
+[1.999s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.000s] -- Searching for dependencies of ignition-msgs5
+[2.035s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.041s] -- Checking for module 'tinyxml2'
+[2.072s] --   Found tinyxml2, version 9.0.0
+[2.166s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.167s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.172s] -- Searching for dependencies of ignition-common3
+[2.172s] -- Looking for dlfcn.h - found
+[2.175s] -- Looking for libdl - found
+[2.179s] -- Found DL: TRUE  
+[2.204s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.204s] -- Searching for <ignition-common3> component [graphics]
+[2.210s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.210s] -- Searching for dependencies of ignition-common3-graphics
+[2.210s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.216s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.216s] -- Searching for dependencies of ignition-fuel_tools4
+[2.413s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.425s] -- Checking for module 'jsoncpp'
+[2.451s] --   Found jsoncpp, version 1.9.5
+[2.523s] -- Found JSONCPP: TRUE  
+[2.534s] -- Checking for module 'libzip'
+[2.562s] --   Found libzip, version 1.7.3
+[2.628s] -- Found ZIP: TRUE  
+[2.629s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.634s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.635s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.638s] -- Gazebo version: 11.10
+[2.639s] -- Checking for module 'tbb'
+[2.667s] --   Found tbb, version 2021.5.0
+[2.733s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.819s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.819s] -- Configured cppcheck include dirs: 
+[2.819s] -- Configured cppcheck exclude dirs and/or files: 
+[2.819s] -- Added test 'lint_cmake' to check CMake code style
+[2.819s] -- Added test 'uncrustify' to check C / C++ code style
+[2.819s] -- Configured uncrustify additional arguments: 
+[2.819s] -- Added test 'xmllint' to check XML markup files
+[2.819s] -- Configuring done
+[2.856s] -- Generating done
+[2.870s] -- Build files have been written to: /home/home/ros2_ws/build/lift_elevator_plugin
+[2.923s] Invoked command in '/home/home/ros2_ws/build/lift_elevator_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/plugins/lift_elevator_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/lift_elevator_plugin
+[2.924s] Invoking command in '/home/home/ros2_ws/build/lift_elevator_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/lift_elevator_plugin -- -j12 -l12
+[3.049s] [ 50%] [32mBuilding CXX object CMakeFiles/elevator_plugin.dir/src/elevator_plugin.cpp.o[0m
+[22.290s] [100%] [32m[1mLinking CXX shared library libelevator_plugin.so[0m
+[22.842s] [100%] Built target elevator_plugin
+[22.852s] Invoked command in '/home/home/ros2_ws/build/lift_elevator_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/lift_elevator_plugin -- -j12 -l12
+[22.853s] Invoking command in '/home/home/ros2_ws/build/lift_elevator_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/lift_elevator_plugin
+[22.858s] -- Install configuration: ""
+[22.858s] -- Execute custom install script
+[22.858s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/lib/libelevator_plugin.so
+[22.865s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/ament_index/resource_index/package_run_dependencies/lift_elevator_plugin
+[22.870s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/ament_index/resource_index/parent_prefix_path/lift_elevator_plugin
+[22.875s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/environment/ament_prefix_path.sh
+[22.880s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/environment/ament_prefix_path.dsv
+[22.885s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/environment/path.sh
+[22.890s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/environment/path.dsv
+[22.895s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/local_setup.bash
+[22.900s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/local_setup.sh
+[22.905s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/local_setup.zsh
+[22.911s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/local_setup.dsv
+[22.916s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/package.dsv
+[22.921s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/ament_index/resource_index/packages/lift_elevator_plugin
+[22.927s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/cmake/lift_elevator_pluginConfig.cmake
+[22.932s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/cmake/lift_elevator_pluginConfig-version.cmake
+[22.938s] -- Symlinking: /home/home/ros2_ws/install/lift_elevator_plugin/share/lift_elevator_plugin/package.xml
+[22.945s] Invoked command in '/home/home/ros2_ws/build/lift_elevator_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/lift_elevator_plugin

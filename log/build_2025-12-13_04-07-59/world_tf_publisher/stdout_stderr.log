@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target world_tf_publisher[0m
+[100%] Built target world_tf_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/lib/libworld_tf_publisher.so
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/ament_index/resource_index/package_run_dependencies/world_tf_publisher
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/ament_index/resource_index/parent_prefix_path/world_tf_publisher
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/path.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/environment/path.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.bash
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.zsh
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/local_setup.dsv
+-- Symlinking: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/package.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/ament_index/resource_index/packages/world_tf_publisher
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/cmake/world_tf_publisherConfig.cmake
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/cmake/world_tf_publisherConfig-version.cmake
+-- Up-to-date symlink: /home/home/ros2_ws/install/world_tf_publisher/share/world_tf_publisher/package.xml

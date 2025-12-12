@@ -1,0 +1,8 @@
+{
+  "package_name": "rl_sar",
+  "non_idl_tuples": [
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar:action/RobotActivation.action",
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar:action/SetLocomotionMode.action",
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar:action/SetNavigationMode.action"
+  ]
+}

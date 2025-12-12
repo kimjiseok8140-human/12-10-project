@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/lift_elevator_plugin/ament_cmake_core/lift_elevator_pluginConfig-version.cmake

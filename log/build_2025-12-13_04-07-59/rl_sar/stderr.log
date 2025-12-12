@@ -1,0 +1,26 @@
+In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_g1.hpp:18[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_g1.cpp:6[m[K:
+[01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+    5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rl_real_g1.dir/build.make:76: CMakeFiles/rl_real_g1.dir/src/rl_real_g1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:802: CMakeFiles/rl_real_g1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/robot/channel/channel_publisher.hpp:4[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/include/rl_real_go2.hpp:18[m[K,
+                 from [01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/src/rl_real_go2.cpp:6[m[K:
+[01m[K/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/rl_sar/library/thirdparty/unitree_sdk2-2.0.0/include/unitree/common/dds/dds_entity.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kunitree/common/log/log.hpp: No such file or directory
+    5 | #include [01;31m[K<unitree/common/log/log.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rl_real_go2.dir/build.make:76: CMakeFiles/rl_real_go2.dir/src/rl_real_go2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:775: CMakeFiles/rl_real_go2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

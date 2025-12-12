@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/sliding_door_plugin/ament_cmake_core/sliding_door_pluginConfig.cmake

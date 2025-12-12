@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/robot_joint_controller/ament_cmake_environment_hooks/local_setup.bash

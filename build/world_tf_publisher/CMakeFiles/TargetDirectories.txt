@@ -1,0 +1,10 @@
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/uninstall.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/world_tf_publisher_uninstall.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/world_tf_publisher.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/test.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/edit_cache.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/rebuild_cache.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/list_install_components.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/install.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/install/local.dir
+/home/home/ros2_ws/build/world_tf_publisher/CMakeFiles/install/strip.dir

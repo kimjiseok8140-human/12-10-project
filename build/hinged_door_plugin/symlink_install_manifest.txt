@@ -1,0 +1,17 @@
+/home/home/ros2_ws/install/hinged_door_plugin/lib/libdouble_hinged_door_plugin.so
+/home/home/ros2_ws/install/hinged_door_plugin/lib/libsingle_hinged_door_plugin.so
+/home/home/ros2_ws/install/hinged_door_plugin/share/ament_index/resource_index/package_run_dependencies/hinged_door_plugin
+/home/home/ros2_ws/install/hinged_door_plugin/share/ament_index/resource_index/parent_prefix_path/hinged_door_plugin
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/ament_prefix_path.sh
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/ament_prefix_path.dsv
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/path.sh
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/path.dsv
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.bash
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.sh
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.zsh
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.dsv
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/package.dsv
+/home/home/ros2_ws/install/hinged_door_plugin/share/ament_index/resource_index/packages/hinged_door_plugin
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/cmake/hinged_door_pluginConfig.cmake
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/cmake/hinged_door_pluginConfig-version.cmake
+/home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/package.xml

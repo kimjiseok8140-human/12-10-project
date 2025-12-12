@@ -1,0 +1,6 @@
+action/RobotActivation.action
+action/RobotActivation.idl
+action/SetLocomotionMode.action
+action/SetLocomotionMode.idl
+action/SetNavigationMode.action
+action/SetNavigationMode.idl

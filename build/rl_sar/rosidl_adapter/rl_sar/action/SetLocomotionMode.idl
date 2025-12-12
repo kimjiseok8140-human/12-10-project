@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rl_sar/action/SetLocomotionMode.action
+// generated code does not contain a copyright notice
+
+
+module rl_sar {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct SetLocomotionMode_Goal {
+      @verbatim (language="comment", text=
+        "1: Default walk, other numbers for other modes")
+      int8 mode;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct SetLocomotionMode_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct SetLocomotionMode_Feedback {
+      string status;
+    };
+  };
+};

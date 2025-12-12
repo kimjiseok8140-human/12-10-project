@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/robot_msgs/rosidl_generator_cpp/robot_msgs/msg/detail/robot_command__struct.hpp

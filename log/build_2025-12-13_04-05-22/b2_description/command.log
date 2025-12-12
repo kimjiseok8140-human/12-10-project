@@ -1,0 +1,6 @@
+Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robots/b2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/b2_description
+Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robots/b2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/b2_description
+Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/b2_description -- -j12 -l12
+Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/b2_description -- -j12 -l12
+Invoking command in '/home/home/ros2_ws/build/b2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/b2_description
+Invoked command in '/home/home/ros2_ws/build/b2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/b2_description

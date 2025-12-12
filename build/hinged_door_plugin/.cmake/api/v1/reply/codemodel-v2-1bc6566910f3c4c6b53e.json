@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9e0a78168fadce90371d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hinged_door_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "double_hinged_door_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-double_hinged_door_plugin-40e17cbf0e9dfb3822ba.json",
+					"name" : "double_hinged_door_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hinged_door_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hinged_door_plugin_uninstall-f80eab1f42bfc3a24369.json",
+					"name" : "hinged_door_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_hinged_door_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_hinged_door_plugin-337f5b4a77efb2b14242.json",
+					"name" : "single_hinged_door_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-423f0292eff93e7c8a96.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/home/ros2_ws/build/hinged_door_plugin",
+		"source" : "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/plugins/hinged_door_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

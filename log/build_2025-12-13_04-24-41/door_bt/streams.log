@@ -1,0 +1,30 @@
+[0.033s] Invoking command in '/home/home/ros2_ws/build/door_bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/door_bt -- -j12 -l12
+[0.092s] [ 75%] Built target door_bt_nodes
+[0.139s] [100%] Built target door_bt_runner
+[0.184s] Invoked command in '/home/home/ros2_ws/build/door_bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/door_bt -- -j12 -l12
+[0.184s] Invoking command in '/home/home/ros2_ws/build/door_bt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/door_bt
+[0.201s] -- Install configuration: ""
+[0.201s] -- Execute custom install script
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/lib/libdoor_bt_nodes.so
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/lib/door_bt/door_bt_runner
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/bt_trees/tests/door_open_close_3doors.xml
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/check_path_uses_door.hpp
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/is_robot_in_door_radius.hpp
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/is_robot_past_door.hpp
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/include/door_bt/bt_nodes/set_door_open.hpp
+[0.201s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/ament_index/resource_index/package_run_dependencies/door_bt
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/ament_index/resource_index/parent_prefix_path/door_bt
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/ament_prefix_path.sh
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/ament_prefix_path.dsv
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/path.sh
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/environment/path.dsv
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.bash
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.sh
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.zsh
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/local_setup.dsv
+[0.202s] -- Symlinking: /home/home/ros2_ws/install/door_bt/share/door_bt/package.dsv
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/ament_index/resource_index/packages/door_bt
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/cmake/door_btConfig.cmake
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/cmake/door_btConfig-version.cmake
+[0.202s] -- Up-to-date symlink: /home/home/ros2_ws/install/door_bt/share/door_bt/package.xml
+[0.227s] Invoked command in '/home/home/ros2_ws/build/door_bt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/door_bt

@@ -1,0 +1,6 @@
+Invoking command in '/home/home/ros2_ws/build/hinged_door_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/plugins/hinged_door_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/hinged_door_plugin
+Invoked command in '/home/home/ros2_ws/build/hinged_door_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/plugins/hinged_door_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/hinged_door_plugin
+Invoking command in '/home/home/ros2_ws/build/hinged_door_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/hinged_door_plugin -- -j12 -l12
+Invoked command in '/home/home/ros2_ws/build/hinged_door_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/hinged_door_plugin -- -j12 -l12
+Invoking command in '/home/home/ros2_ws/build/hinged_door_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/hinged_door_plugin
+Invoked command in '/home/home/ros2_ws/build/hinged_door_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/hinged_door_plugin

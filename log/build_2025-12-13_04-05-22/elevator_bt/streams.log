@@ -1,0 +1,75 @@
+[0.024s] Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/bt/elevator_bt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/elevator_bt
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.139s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.512s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.548s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.693s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.718s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.762s] -- Looking for pthread.h
+[0.819s] -- Looking for pthread.h - found
+[0.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.878s] -- Found Threads: TRUE  
+[0.961s] -- Configuring done
+[0.969s] -- Generating done
+[0.972s] -- Build files have been written to: /home/home/ros2_ws/build/elevator_bt
+[0.983s] Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/home/ros2_ws/src/RCI_quadruped_robot_navigation/bt/elevator_bt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/home/ros2_ws/install/elevator_bt
+[0.983s] Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/elevator_bt -- -j12 -l12
+[1.154s] [ 25%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/bt_nodes/set_elevator_door.cpp.o[0m
+[1.154s] [ 25%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/bt_nodes/ok_node.cpp.o[0m
+[1.154s] [ 37%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/bt_nodes/elevator_client.cpp.o[0m
+[1.154s] [ 50%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/main_bt.cpp.o[0m
+[1.154s] [ 62%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/bt_nodes/call_elevator_to_floor.cpp.o[0m
+[1.154s] [ 75%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/bt_nodes/wait_door_open.cpp.o[0m
+[1.154s] [ 87%] [32mBuilding CXX object CMakeFiles/elevator_bt_runner.dir/src/bt_nodes/wait_cabin_at_target.cpp.o[0m
+[12.676s] [100%] [32m[1mLinking CXX executable elevator_bt_runner[0m
+[13.229s] [100%] Built target elevator_bt_runner
+[13.240s] Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/home/ros2_ws/build/elevator_bt -- -j12 -l12
+[13.241s] Invoking command in '/home/home/ros2_ws/build/elevator_bt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/elevator_bt
+[13.249s] -- Install configuration: ""
+[13.249s] -- Execute custom install script
+[13.249s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/lib/elevator_bt/elevator_bt_runner
+[13.258s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/call_elevator_to_floor.hpp
+[13.267s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/elevator_client.hpp
+[13.276s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/ok_node.hpp
+[13.285s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/set_elevator_door.hpp
+[13.294s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/wait_cabin_at_target.hpp
+[13.303s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/include/elevator_bt/bt_nodes/wait_door_open.hpp
+[13.312s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/config/elevator_lift1.yaml
+[13.320s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/config/elevator_lift2.yaml
+[13.329s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/ament_index/resource_index/package_run_dependencies/elevator_bt
+[13.339s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/ament_index/resource_index/parent_prefix_path/elevator_bt
+[13.348s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/ament_prefix_path.sh
+[13.357s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/ament_prefix_path.dsv
+[13.365s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/path.sh
+[13.375s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/environment/path.dsv
+[13.384s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.bash
+[13.393s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.sh
+[13.402s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.zsh
+[13.410s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/local_setup.dsv
+[13.419s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/package.dsv
+[13.427s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/ament_index/resource_index/packages/elevator_bt
+[13.436s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/cmake/elevator_btConfig.cmake
+[13.445s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/cmake/elevator_btConfig-version.cmake
+[13.453s] -- Symlinking: /home/home/ros2_ws/install/elevator_bt/share/elevator_bt/package.xml
+[13.467s] Invoked command in '/home/home/ros2_ws/build/elevator_bt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/home/ros2_ws/build/elevator_bt

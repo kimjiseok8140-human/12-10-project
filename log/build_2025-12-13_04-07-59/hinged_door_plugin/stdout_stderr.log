@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target single_hinged_door_plugin[0m
+[35m[1mConsolidate compiler generated dependencies of target double_hinged_door_plugin[0m
+[ 50%] Built target single_hinged_door_plugin
+[100%] Built target double_hinged_door_plugin
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/lib/libdouble_hinged_door_plugin.so
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/lib/libsingle_hinged_door_plugin.so
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/ament_index/resource_index/package_run_dependencies/hinged_door_plugin
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/ament_index/resource_index/parent_prefix_path/hinged_door_plugin
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/path.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/environment/path.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.bash
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.sh
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.zsh
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/local_setup.dsv
+-- Symlinking: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/package.dsv
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/ament_index/resource_index/packages/hinged_door_plugin
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/cmake/hinged_door_pluginConfig.cmake
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/cmake/hinged_door_pluginConfig-version.cmake
+-- Up-to-date symlink: /home/home/ros2_ws/install/hinged_door_plugin/share/hinged_door_plugin/package.xml

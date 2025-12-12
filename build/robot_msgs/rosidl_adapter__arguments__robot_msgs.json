@@ -1,0 +1,10 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs:msg/MotorCommand.msg",
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs:msg/MotorState.msg",
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs:msg/RobotCommand.msg",
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs:msg/RobotState.msg",
+    "/home/home/ros2_ws/src/RCI_quadruped_robot_navigation/robot_msgs:msg/IMU.msg"
+  ]
+}

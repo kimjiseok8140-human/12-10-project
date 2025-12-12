@@ -1,0 +1,1 @@
+/home/home/ros2_ws/build/robot_msgs/rosidl_generator_c/robot_msgs/msg/detail/motor_command__functions.h
